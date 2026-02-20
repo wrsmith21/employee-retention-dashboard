@@ -15,8 +15,8 @@ import plotly.express as px
 # ----------------------------
 st.set_page_config(page_title="Employee Retention Advisor", layout="wide")
 
-DATA_PATH = "/Users/rayfordsmith/Documents/emp_retention/employee_retention_sample.xlsx"  # <-- CHANGE ME (xlsx or csv)
-LOGO_PATH = "/Users/rayfordsmith/Documents/emp_retention/Screenshot 2026-02-13 at 9.17.27 AM copy 2.png"
+DATA_PATH = "employee_retention_sample.xlsx"  # <-- CHANGE ME (xlsx or csv)
+LOGO_PATH = "Screenshot 2026-02-13 at 9.17.27 AM copy 2.png"
 SHEET_NAME = None  # set to a sheet name if needed, else None
 
 # Columns expected (based on the synthetic dataset we generated). If your real data differs,
