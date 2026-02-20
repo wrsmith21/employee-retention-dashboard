@@ -368,7 +368,7 @@ with header_left:
     else:
         st.caption("Logo not found.")
 with header_right:
-    st.title("Employee Retention Advisor (ERA) — Dashboard")
+    st.title("Employee Retention Advisor (ERA)")
     st.caption("Executive view of retention risk, key drivers, and prioritized actions.")
 
 with st.sidebar:
